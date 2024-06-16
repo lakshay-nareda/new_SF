@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #735DA5;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+.sf_bo_s {
+    transform: translateX(0) !important;
+}
+
+.sf_se {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+}
+
+.sf_se_v {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.sf-tabs_c {
+    display: none;
+}
+
+.sf-tabs_c.current {
+    display: block;
+}
+
+.sf_a_tabs li.current{
+    background-color: white !important;
+    color: #735DA5 !important;
+    font-weight: 700;
+} 
